@@ -1,0 +1,123 @@
+* { box-sizing: border-box; }
+
+body
+{
+    background-image: url(background.jpg);
+    background-color: #000000;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+main
+{ 
+    padding: 0px 0px 2em 0px;
+    margin-left: 200px;
+    background-color: #331280; 
+}
+
+#wrapper
+{
+    background-color: #231814;
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow: 3px 3px 3px #333;
+}
+
+.details
+{
+    padding-left: 20%;
+    padding-right: 20%;
+    overflow: auto; 
+}
+
+header
+{
+    background-color: #ffffff;
+    height: 150px;
+    background-image: url(visualgames.jpg);
+    background-repeat: no-repeat;
+}
+
+h1
+{
+    color: white;
+    padding-top: 45px;
+    padding-left: 220px;
+    font-size: 3em;
+}
+
+main h2, main h3, main h4, main p, main div, main ul, main dl
+{ 
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+header, nav, main, footer { display: block; }
+
+h4
+{
+    background-color: #040b4b; 
+    font-size: 1.2em; 
+    padding-left: 10px; 
+    padding-bottom: 0px;
+    border-bottom: 2px solid #221811;
+    text-transform: uppercase; 
+    clear: left;;
+}
+
+nav 
+{ 
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5em; 
+    padding-top: 10px; 
+    float: left; 
+    width: 200px;
+}
+
+nav a:link { color: #ffffff; }
+nav a:visited { color: #f0faff; }
+nav a:hover { color: #ffffff; }
+nav ul { list-style-type: none; padding-left: 0px; }
+
+#Genconsole
+{
+    background-image: url(Genconsole.jpg);
+    background-size: 100% 100%;
+    height:250px;
+}
+
+#heromugs
+{
+    background-image: url(mugs.jpg);
+    background-size: 100% 100%;
+    height:250px;
+}
+
+#heroguitar
+{
+    background-image: url(heroguitar.jpg);
+    background-size: 100% 100%;
+    height:250px;
+}
+
+.floatleft
+{
+    float: left; 
+    padding: 0px 20px 20px 0px; 
+}
+
+img
+{
+    padding: 0px 10px;
+}
+
+footer
+{
+    padding-bottom: 10px;
+    border: 2px solid #221811;
+    background-image: url(visualgames.jpg);
+    font-size: .60em; 
+    font-style: italic;
+    text-align: center; 
+}
